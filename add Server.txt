@@ -1,0 +1,4 @@
+install node.js, 
+run "npm install -g http-server", 
+and in the directory with your app type "http-server -c-1", 
+web-page will be accessible at http://localhost:8080
