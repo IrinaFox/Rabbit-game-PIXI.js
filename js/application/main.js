@@ -17,11 +17,11 @@ window.addEventListener('load', function () {
 
     loader
         .add([
-            "./imagies/rabbit.png",
-            "./imagies/cactus.png",
-            "./imagies/carrot.png",
-            "./imagies/grass.png",
-            "./imagies/treasureHunter.json"
+            "./images/rabbit.png",
+            "./images/cactus.png",
+            "./images/carrot.png",
+            "./images/grass.png",
+            "./images/treasureHunter.json"
         ])
         .load(setup);
 
@@ -31,12 +31,12 @@ window.addEventListener('load', function () {
         grass;
 
     function setup () {
-        rabbit = new Sprite(resources["./imagies/rabbit.png"].texture);
-        cactus = new Sprite(resources["./imagies/cactus.png"].texture);
-        carrot = new Sprite(resources["./imagies/carrot.png"].texture);
+        rabbit = new Sprite(resources["./images/rabbit.png"].texture);
+        cactus = new Sprite(resources["./images/cactus.png"].texture);
+        carrot = new Sprite(resources["./images/carrot.png"].texture);
         carrot.x = 92;
-        carrot.y = 37;
-        grass = new Sprite(resources["./imagies/grass.png"].texture);
+        carrot.y = 97;
+        grass = new Sprite(resources["./images/grass.png"].texture);
 
         stage.addChild(grass);
         stage.addChild(rabbit);
