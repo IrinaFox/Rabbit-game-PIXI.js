@@ -1,17 +1,17 @@
 'use strict';
 
 class Rabbit {
-    constructor(picture) {
+    constructor (picture) {
         this.picture = picture;
         this.carrots = 0;
         this.position = undefined;
     }
 
-    dead () {
-
+    die () {
+        return true;
     }
 
     eat (food) {
-        food === 'cactus': this.dead() ? this.carrots++;
+        food === 'cactus' ? this.die() : this.carrots++;
     }
 }
